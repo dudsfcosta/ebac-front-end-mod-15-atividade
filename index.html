@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>PetShop Amor Animal</title>
+
+	<!-- Tailwind CSS via CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-white shadow">
+	<div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+		<h1 class="text-xl font-bold text-indigo-600">
+			🐾 Pet & Style
+		</h1>
+
+		<nav class="hidden md:flex gap-6">
+			<a href="#home" class="hover:text-indigo-600">Home</a>
+			<a href="#produtos" class="hover:text-indigo-600">Produtos</a>
+			<a href="#depoimentos" class="hover:text-indigo-600">Depoimentos</a>
+			<a href="#contato" class="hover:text-indigo-600">Contato</a>
+		</nav>
+	</div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="bg-indigo-600 text-white">
+	<div class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+		<div>
+			<h2 class="text-3xl md:text-4xl font-bold mb-4">
+				Tudo para o conforto do seu pet
+			</h2>
+			<p class="mb-6">
+				Produtos selecionados com carinho para o bem-estar do seu melhor amigo.
+			</p>
+			<a href="#produtos" class="bg-white text-indigo-600 px-6 py-3 rounded font-semibold">
+				Ver produtos
+			</a>
+		</div>
+
+		<img
+				src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b"
+				alt="Cachorros felizes correndo"
+				class="rounded-lg w-full h-64 object-cover"
+		>
+	</div>
+</section>
+
+<!-- ================= PRODUTOS ================= -->
+<section id="produtos" class="py-16">
+	<div class="max-w-7xl mx-auto px-4">
+		<h2 class="text-2xl font-bold text-center mb-10">
+			Nossos Produtos
+		</h2>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+			<!-- Produto 1 -->
+			<div class="bg-white rounded-lg shadow p-4 text-center">
+				<img
+						src="https://images.unsplash.com/photo-1573682127988-f67136e7f12a"
+						alt="Gato em uma caminha para pet"
+						class="h-40 w-full object-cover rounded mb-4"
+				>
+				<h3 class="font-semibold">Caminhas</h3>
+				<p class="text-sm text-gray-600">Ideal para cães e gatos.</p>
+				<span class="block mt-2 font-bold text-indigo-600">
+            A partir de R$ 149,90
+          </span>
+			</div>
+
+			<!-- Produto 2 -->
+			<div class="bg-white rounded-lg shadow p-4 text-center">
+				<img
+						src="https://images.unsplash.com/photo-1580597095981-8d21aa8cdfed"
+						alt="Cachorro com patinhos de borracha e uma banheira"
+						class="h-40 w-full object-cover rounded mb-4"
+				>
+				<h3 class="font-semibold">Brinquedos</h3>
+				<p class="text-sm text-gray-600">Diversão garantida!</p>
+				<span class="block mt-2 font-bold text-indigo-600">
+            A partir de R$ 39,90
+          </span>
+			</div>
+
+			<!-- Produto 3 -->
+			<div class="bg-white rounded-lg shadow p-4 text-center">
+				<img
+						src="https://images.unsplash.com/photo-1667716705760-233650f8f3fe"
+						alt="Coleira para pet"
+						class="h-40 w-full object-cover rounded mb-4"
+				>
+				<h3 class="font-semibold">Coleira Ajustável</h3>
+				<p class="text-sm text-gray-600">Segurança e estilo para o seu pet.</p>
+				<span class="block mt-2 font-bold text-indigo-600">
+            A partir de R$ 59,90
+          </span>
+			</div>
+
+			<!-- Produto 4 -->
+			<div class="bg-white rounded-lg shadow p-4 text-center">
+				<img
+						src="https://images.unsplash.com/photo-1734654901149-02a9a5f7993b"
+						alt="Pote para ração"
+						class="h-40 w-full object-cover rounded mb-4"
+				>
+				<h3 class="font-semibold">Pote para Ração</h3>
+				<p class="text-sm text-gray-600">Prático e resistente.</p>
+				<span class="block mt-2 font-bold text-indigo-600">
+            A partir de R$ 29,90
+          </span>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section id="depoimentos" class="bg-gray-100 py-16">
+	<div class="max-w-4xl mx-auto px-4 text-center">
+		<h2 class="text-2xl font-bold mb-8">
+			Depoimentos
+		</h2>
+
+		<div class="space-y-6">
+			<p class="italic">
+				“Produtos de ótima qualidade e entrega rápida!”
+				<span class="block font-semibold mt-2">— Ana Paula</span>
+			</p>
+
+			<p class="italic">
+				“Meu cachorro amou a caminha nova.”
+				<span class="block font-semibold mt-2">— Carlos Mendes</span>
+			</p>
+
+			<p class="italic">
+				“Atendimento excelente e preços justos.”
+				<span class="block font-semibold mt-2">— Juliana Rocha</span>
+			</p>
+		</div>
+	</div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section id="contato" class="py-16">
+	<div class="max-w-4xl mx-auto px-4">
+		<h2 class="text-2xl font-bold text-center mb-8">
+			Contato
+		</h2>
+
+		<div class="text-center mb-6">
+			<p>Email: contato@petnstyle.com</p>
+			<p>Telefone: (11) 99999-9999</p>
+		</div>
+
+		<form class="bg-white shadow rounded-lg p-6 space-y-4">
+			<label hidden="hidden" for="nome"></label>
+			<input
+					id="nome"
+					type="text"
+					placeholder="Seu nome"
+					class="w-full border rounded px-4 py-2"
+			>
+
+			<label hidden="hidden" for="email"></label>
+			<input
+					id="email"
+					type="email"
+					placeholder="Seu e-mail"
+					class="w-full border rounded px-4 py-2"
+			>
+
+			<label hidden="hidden" for="msg"></label>
+			<textarea
+					id="msg"
+					placeholder="Sua mensagem"
+					class="w-full border rounded px-4 py-2 h-28"
+			></textarea>
+
+			<button
+					type="submit"
+					class="w-full bg-indigo-600 text-white py-2 rounded font-semibold hover:bg-indigo-700"
+			>
+				Enviar
+			</button>
+		</form>
+	</div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-800 text-white text-center py-4">
+	<p>&copy; 2026 Eduarda Ferreira Costa - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
